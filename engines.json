@@ -1,0 +1,166 @@
+{
+    "baidu": {
+        "web": {
+            "url": "http://www.baidu.com/s?wd={keyword}"
+        },
+        "image": {
+            "url": "http://image.baidu.com/i?ie=utf-8&word={keyword}"
+        },
+        "video": {
+            "url": "http://v.baidu.com/v?ie=utf-8&word={keyword}"
+        },
+        "encyclopedia": {
+            "url": "http://baike.baidu.com/search?word={keyword}"
+        },
+        "translate": {
+            "url": "http://fanyi.baidu.com/translate?lang=auto2auto&query={keyword}"
+        },
+        "map": {
+            "url": "http://map.baidu.com/m?c=1&word={keyword}"
+        }
+    },
+    "google": {
+        "web": {
+            "url": "http://www.google.com/search?q={keyword}"
+        },
+        "image": {
+            "url": "http://images.google.com/search?tbm=isch&q={keyword}"
+        },
+        "translate": {
+            "url": "http://translate.google.cn/?q={keyword}"
+        },
+        "map": {
+            "url": "http://ditu.google.cn/maps?q={keyword}"
+        }
+    },
+    "bing": {
+        "web": {
+            "url": "http://www.bing.com/search?q={keyword}"
+        },
+        "image": {
+            "url": "http://www.bing.com/images/search?q={keyword}"
+        },
+    },
+    "sogou": {
+        "web": {
+            "url": "http://www.sogou.com/sogou?ie=utf-8&query={keyword}"
+        },
+        "image": {
+            "url": "http://pic.sogou.com/pics?ie=utf-8&query={keyword}"
+        },
+        "map": {
+            "url": "http://map.sogou.com?lq={keyword}"
+        }
+    },
+    "163": {
+        "music": {
+            "url": "http://music.163.com/#/search/m/?type=1&s={keyword}"
+        },
+        "news": {
+            "url": "http://news.youdao.com/search?q={keyword}"
+        },
+        "translate": {
+            "url": "http://fanyi.youdao.com/translate?i={keyword}"
+        }
+    },
+    "sohu": {
+        "video": {
+            "url": "http://so.tv.sohu.com/mts?wd={keyword}"
+        },
+        "news": {
+            "url": "http://news.sogou.com/news?query={keyword}"
+        }
+    },
+    "kuwo": {
+        "music": {
+            "url": "http://sou.kuwo.cn/ws/NSearch?key={keyword}"
+        }
+    },
+    "xiami": {
+        "music": {
+            "url": "http://www.xiami.com/search?key={keyword}"
+        }
+    },
+    "yinyuetai": {
+        "music": {
+            "url": "http://so.yinyuetai.com/mv?keyword={keyword}"
+        }
+    },
+    "soku": {
+        "video": {
+            "url": "http://www.soku.com/v?keyword={keyword}"
+        }
+    },
+    "iqiyi": {
+        "video": {
+            "url": "http://so.iqiyi.com/so/q_{keyword}"
+        }
+    },
+    "qq": {
+        "video": {
+            "url": "http://v.qq.com/search.html?ms_key={keyword}",
+        }
+    },
+    "ifeng": {
+        "news": {
+            "url": "http://search.ifeng.com/sofeng/search?q={keyword}"
+        }
+    },
+    "sina": {
+        "news": {
+            "url": "http://search.sina.com.cn/?ie=utf-8&c=news&q={keyword}"
+        }
+    },
+    "taobao": {
+        "shopping": {
+            "url": "http://s.taobao.com/search?q={keyword}",
+        }
+    },
+    "tmall": {
+        "shopping": {
+            "url": "http://list.tmall.com/search_product.htm",
+            "params": { "q":"{keyword}" },
+            "encode": "GBK"
+        }
+    },
+    "jd": {
+        "shopping": {
+            "url": "http://search.jd.com/Search?enc=utf-8&keyword={keyword}",
+        }
+    },
+    "yixun": {
+        "shopping": {
+            "url": "http://searchex.yixun.com/html?key={keyword}",
+        }
+    },
+    "dangdang": {
+        "shopping": {
+            "url": "http://search.dangdang.com/?key={keyword}",
+        }
+    },
+    "amazon": {
+        "shopping": {
+            "url": "http://www.amazon.cn/s?keywords={keyword}",
+        }
+    },
+    "yhd": {
+        "shopping": {
+            "url": "http://search.yhd.com/s2/c0-0/k{keyword}"
+        }
+    },
+    "wiki": {
+        "encyclopedia": {
+            "url": "http://zh.wikipedia.org/w/index.php?search={keyword}",
+        }
+    },
+    "hudong": {
+        "encyclopedia": {
+            "url": "http://so.baike.com/s/doc/{keyword}"
+        }
+    },
+    "amap": {
+        "map": {
+            "url": "http://www.amap.com/#!poi!!q={keyword}"
+        }
+    }
+}
