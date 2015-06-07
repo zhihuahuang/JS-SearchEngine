@@ -39,7 +39,7 @@
         },
         "image": {
             "url": "http://www.bing.com/images/search?q={keyword}"
-        },
+        }
     },
     "sogou": {
         "web": {
@@ -98,7 +98,7 @@
     },
     "qq": {
         "video": {
-            "url": "http://v.qq.com/search.html?ms_key={keyword}",
+            "url": "http://v.qq.com/search.html?ms_key={keyword}"
         }
     },
     "ifeng": {
@@ -113,7 +113,7 @@
     },
     "taobao": {
         "shopping": {
-            "url": "http://s.taobao.com/search?q={keyword}",
+            "url": "http://s.taobao.com/search?q={keyword}"
         }
     },
     "tmall": {
@@ -125,22 +125,22 @@
     },
     "jd": {
         "shopping": {
-            "url": "http://search.jd.com/Search?enc=utf-8&keyword={keyword}",
+            "url": "http://search.jd.com/Search?enc=utf-8&keyword={keyword}"
         }
     },
     "yixun": {
         "shopping": {
-            "url": "http://searchex.yixun.com/html?key={keyword}",
+            "url": "http://searchex.yixun.com/html?key={keyword}"
         }
     },
     "dangdang": {
         "shopping": {
-            "url": "http://search.dangdang.com/?key={keyword}",
+            "url": "http://search.dangdang.com/?key={keyword}"
         }
     },
     "amazon": {
         "shopping": {
-            "url": "http://www.amazon.cn/s?keywords={keyword}",
+            "url": "http://www.amazon.cn/s?keywords={keyword}"
         }
     },
     "yhd": {
@@ -150,7 +150,7 @@
     },
     "wiki": {
         "encyclopedia": {
-            "url": "http://zh.wikipedia.org/w/index.php?search={keyword}",
+            "url": "http://zh.wikipedia.org/w/index.php?search={keyword}"
         }
     },
     "hudong": {

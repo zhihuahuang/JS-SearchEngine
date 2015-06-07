@@ -2,17 +2,60 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Demo</title>
+    <title>SearchEngine - Demo</title>
+    <style>
+    body{
+        font-family: Arial, sans-serif;
+    }
+
+    #search-title {
+        position: absolute;
+        width: 100%;
+        top: 35%;
+        text-align: center;
+        color: #555;
+    }
+
+    #search-form {
+        position: absolute;
+        width: 720px;
+        height: 40px;
+        top: 50%;
+        left: 50%;
+        margin-left: -360px;
+        margin-top: -20px;
+    }
+
+    #search-form input{
+        width: 620px;
+        height: 24px;
+        border: 1px #777 solid;
+        border-radius: 3px;
+        padding: 8px;
+    }
+
+    #search-form button{
+        margin: 0;
+        height: 100%;
+
+    }
+    </style>
 </head>
 <body>
-    <h1>Search Box</h1>
-    <form id="search-form" data-engine="yhd" data-type="shopping">
-        <input type="text" name="word" />
+    <h1 id="search-title">Search Engine Box</h1>
+    <form id="search-form" data-engine="baidu" data-type="web">
+        <input type="text" name="keyword" placeholder="Search..." />
         <button>Submit</button>
     </form>
-    <script src="searchbox.js"></script>
+    <script data-engine="engines.json" src="searchengine.js"></script>
     <script type="text/javascript">
-    searchbox(document.getElementById('search-form'));
+    document.getElementById('search-form').onsubmit = function(event){
+        event.preventDefault();
+
+        SearchEngine.submit(this["keyword"].value, this.getAttribute('data-engine'), this.getAttribute('data-type'));
+
+        return false;
+    }
     </script>
 </body>
 </html>
